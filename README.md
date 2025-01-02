@@ -92,7 +92,7 @@ The dataset contains historical funding information for over 34,000 organization
   - Activation functions: ReLU for hidden layers, Sigmoid for output layer.  
 
 - **Performance**:  
-  - Initial model accuracy: X.XX%  
+  - Initial model accuracy: 72.15%  
   - Optimized model accuracy: X.XX%  
 
 ### Steps to Increase Model Performance  

@@ -93,20 +93,22 @@ The dataset contains historical funding information for over 34,000 organization
 
 - **Performance**:  
   - Initial model accuracy: 72.15%  
-  - Optimized model accuracy: X.XX%  
+  - Optimized model accuracy: 74.05%  
 
 ### Steps to Increase Model Performance  
 
-- Added more neurons to the first and second hidden layers.  
-- Tuned the activation functions and experimented with Leaky ReLU.  
+- Added more neurons to the first and second hidden layers.
+- Added more hidden layers.  
+- Tuned the activation functions and experimented with ReLU.  
 - Increased the number of epochs for additional training.  
-- Adjusted preprocessing bins for categorical data.  
+- Utilized Keras-tuner to find a more optimized model.
+- Removed columns for potenial collinearity problem. 
 
 ---
 
 ## Summary  
 
-The final neural network model achieved an accuracy of **X.XX%** on the test data. While the model met [or did not meet] the target accuracy of 75%, several optimization strategies were employed, including feature adjustment and hyperparameter tuning.
+The final neural network model achieved an accuracy of **74.05%** on the test data. While the model or did not meet the target accuracy of 75%, several optimization strategies were employed, including feature adjustment and hyperparameter tuning.
 
 ### Recommendations  
 
